@@ -715,3 +715,128 @@ Processing by UsersController#my_portfolio as HTML
   Rendered users/my_portfolio.html.erb within layouts/application (148.8ms)
   Rendered layouts/_navigation.html.erb (4.7ms)
 Completed 200 OK in 240ms (Views: 223.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/my_portfolio" for 50.152.163.55 at 2016-05-04 22:49:34 +0000
+Cannot render console from 50.152.163.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#my_portfolio as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered common/_spinner.html.erb (0.1ms)
+  Rendered stocks/_lookup.html.erb (4.1ms)
+  [1m[36mStock Load (0.2ms)[0m  [1mSELECT "stocks".* FROM "stocks" INNER JOIN "user_stocks" ON "stocks"."id" = "user_stocks"."stock_id" WHERE "user_stocks"."user_id" = ?[0m  [["user_id", 1]]
+  Rendered stocks/_list.html.erb (90.6ms)
+  Rendered users/my_portfolio.html.erb within layouts/application (97.5ms)
+  Rendered layouts/_navigation.html.erb (4.8ms)
+Completed 200 OK in 212ms (Views: 209.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/devise_bootstrap_views.self-397f5c503b7e0ad315dc70cedb38eb4e8a3af625a80fdfdeeba7f656bce8365b.css?body=1" for 50.152.163.55 at 2016-05-04 22:49:34 +0000
+Cannot render console from 50.152.163.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-603f330c29af013305325569c8c75d03d688963abd8cde4fffec17b5ce417bfb.css?body=1" for 50.152.163.55 at 2016-05-04 22:49:34 +0000
+Cannot render console from 50.152.163.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-2fe4f8a61d73606fbcb036b41f380591906a4da65a9eb5ec0a210fe6980b2ca7.css?body=1" for 50.152.163.55 at 2016-05-04 22:49:34 +0000
+Cannot render console from 50.152.163.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for 50.152.163.55 at 2016-05-04 22:49:34 +0000
+Cannot render console from 50.152.163.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 50.152.163.55 at 2016-05-04 22:49:34 +0000
+Cannot render console from 50.152.163.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/custom.self-c766f63a04cf15b21bc780fe0dc7c9615c5eb0a05c57772e7bdbed4c535b06f6.css?body=1" for 50.152.163.55 at 2016-05-04 22:49:34 +0000
+Cannot render console from 50.152.163.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/scaffolds.self-ee018d068edbec0f0209a52a5778c0f404c038e4b9ea4f741cb229898299af76.css?body=1" for 50.152.163.55 at 2016-05-04 22:49:34 +0000
+Cannot render console from 50.152.163.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/user_stocks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 50.152.163.55 at 2016-05-04 22:49:34 +0000
+Cannot render console from 50.152.163.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 50.152.163.55 at 2016-05-04 22:49:34 +0000
+Cannot render console from 50.152.163.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 50.152.163.55 at 2016-05-04 22:49:34 +0000
+Cannot render console from 50.152.163.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for 50.152.163.55 at 2016-05-04 22:49:34 +0000
+Cannot render console from 50.152.163.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for 50.152.163.55 at 2016-05-04 22:49:34 +0000
+Cannot render console from 50.152.163.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for 50.152.163.55 at 2016-05-04 22:49:34 +0000
+Cannot render console from 50.152.163.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for 50.152.163.55 at 2016-05-04 22:49:34 +0000
+Cannot render console from 50.152.163.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for 50.152.163.55 at 2016-05-04 22:49:34 +0000
+Cannot render console from 50.152.163.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for 50.152.163.55 at 2016-05-04 22:49:34 +0000
+Cannot render console from 50.152.163.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for 50.152.163.55 at 2016-05-04 22:49:34 +0000
+Cannot render console from 50.152.163.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for 50.152.163.55 at 2016-05-04 22:49:35 +0000
+Cannot render console from 50.152.163.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for 50.152.163.55 at 2016-05-04 22:49:35 +0000
+Cannot render console from 50.152.163.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for 50.152.163.55 at 2016-05-04 22:49:35 +0000
+Cannot render console from 50.152.163.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for 50.152.163.55 at 2016-05-04 22:49:35 +0000
+Cannot render console from 50.152.163.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for 50.152.163.55 at 2016-05-04 22:49:35 +0000
+Cannot render console from 50.152.163.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 50.152.163.55 at 2016-05-04 22:49:35 +0000
+Cannot render console from 50.152.163.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1" for 50.152.163.55 at 2016-05-04 22:49:35 +0000
+Cannot render console from 50.152.163.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/friends.self-1d0e3d526297978cae97c2727e94efc218ae2b696f1873c6abe001eb7edaec0c.js?body=1" for 50.152.163.55 at 2016-05-04 22:49:35 +0000
+Cannot render console from 50.152.163.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/stocks.self-01ea3ed190fcad1afb25b6bafbd08601dc5dbc6d7181891ca7704e34243525ba.js?body=1" for 50.152.163.55 at 2016-05-04 22:49:35 +0000
+Cannot render console from 50.152.163.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-ba1f2e0b8299241b0dc308f19a7947e86cd924db1d324e5d71954b37de3838c2.js?body=1" for 50.152.163.55 at 2016-05-04 22:49:35 +0000
+Cannot render console from 50.152.163.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/user_stocks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 50.152.163.55 at 2016-05-04 22:49:35 +0000
+Cannot render console from 50.152.163.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
