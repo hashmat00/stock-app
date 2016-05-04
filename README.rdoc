@@ -5,7 +5,7 @@
 
 ===================================================
         
-        For complete Live Demo  visit 
+        For complete Live Demo  visit..
         
         https://stocks-app.herokuapp.com/
         
